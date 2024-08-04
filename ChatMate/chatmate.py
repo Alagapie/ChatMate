@@ -13,7 +13,7 @@ st.set_page_config(
     page_title="Alagapie chatbot",
     layout="centered"
 )
-st.title("🤖 Alagapie - ChatBot")
+st.write("##🤖 Alagapie - ChatBot")
 def streamlit_role(user_role):
     if user_role=="model":
         return "assistant"
